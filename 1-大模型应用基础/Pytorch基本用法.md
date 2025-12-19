@@ -134,6 +134,8 @@ width = 128
 input_tensor = torch.randn(batch_size, 3, height, width)
 # 进行前向传播
 output_tensor = conv_layer(input_tensor)
+#  output_tensor.shape : [32, 64, 128, 128]
+
 ```
 
 Q3:torch.Size,shape和dtype用法和解释,如何与numpy转换?
